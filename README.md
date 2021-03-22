@@ -1,0 +1,1 @@
+This repo shows the markdown tags usage with **Lorem Ipsum** content.
