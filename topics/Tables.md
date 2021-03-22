@@ -6,7 +6,7 @@ title: Tables
 
 # {{page.title}}
 
-You can create tables by using the Pipe (|) character. Hyphen's create the header row while Pipe character separates colums. Example table shows below.
+You can create tables by using the Pipe (\|) character. Hyphen's create the header row while Pipe character separates colums. Example table shows below.
 
 | Header | Another header | Yet another header |
 |--- |--- |--- |
@@ -16,8 +16,6 @@ You can create tables by using the Pipe (|) character. Hyphen's create the heade
 
 Another table example:
 
-| Header | Another header |
-|--- |--- |
 {% for item in site.data.Sample %}
 
 |{{ item.LoremIpsum }}| {{ item.LoremIpsum1 }}|
